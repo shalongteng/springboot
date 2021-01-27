@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  messages:
+    basename: i18n/login
+# 多数据源配置
+#  datasource:
+#    local:
+#      username: root
+#      password: 123456
+#      driver-class-name: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&useUnicode=true@characterEncoding=utf-8
+#    remote:
+#      username: root
+#      password: 123456
+#      driver-class-name: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&useUnicode=true@characterEncoding=utf-8
